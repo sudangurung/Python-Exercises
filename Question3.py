@@ -17,7 +17,6 @@ class Investment:
 
     def value_after(self, year):
         rate = self.principle*((1 + self.interest)**year)
-
         return rate
 
 
